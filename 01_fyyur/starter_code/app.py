@@ -40,7 +40,7 @@ migrate = Migrate(app, db)
 # Models.
 #----------------------------------------------------------------------------#
 class Venue(db.Model):
-    __tablename__ = 'Venue'
+    __tablename__ = "Venue"
 
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(), nullable=False)
@@ -61,7 +61,7 @@ class Venue(db.Model):
 
 
 class Artist(db.Model):
-    __tablename__ = 'Artist'
+    __tablename__ = "Artist"
 
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(), nullable=False)
